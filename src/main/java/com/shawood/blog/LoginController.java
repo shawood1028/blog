@@ -16,10 +16,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 
 public class LoginController {
-//    处理admin 请求
+//    处理登录请求
 
-    @GetMapping("/admin")
+    @GetMapping("/Login")
     public String AdminLogin(){
-        return "login";
+        return "Login";
     }
 }
